@@ -32,4 +32,11 @@ public class Num101_IsSymmetric {
 
     return false;
   }
+
+  public boolean isSymmetric1(TreeNode root) {
+
+    //广度优先遍历
+
+    return false;
+  }
 }
