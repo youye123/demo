@@ -31,3 +31,5 @@ build/
 
 ### VS Code ###
 .vscode/
+/hs_err_pid65044.log
+/hs_err_pid8600.log
