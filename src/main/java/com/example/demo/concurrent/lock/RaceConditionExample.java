@@ -1,4 +1,4 @@
-package com.example.demo.lock;
+package com.example.demo.concurrent.lock;
 
 public class RaceConditionExample {
     // 共享资源

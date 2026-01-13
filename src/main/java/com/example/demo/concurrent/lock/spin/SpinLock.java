@@ -1,4 +1,4 @@
-package com.example.demo.lock.spin;
+package com.example.demo.concurrent.lock.spin;
 
 import java.util.concurrent.locks.Lock;
 

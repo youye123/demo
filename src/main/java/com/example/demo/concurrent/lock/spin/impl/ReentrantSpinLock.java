@@ -1,14 +1,13 @@
-package com.example.demo.lock.spin.impl;
+package com.example.demo.concurrent.lock.spin.impl;
 
-import com.example.demo.lock.spin.SpinLock;
+import com.example.demo.concurrent.lock.spin.SpinLock;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.Condition;
 
-
 /**
- * 自旋锁的简单实现
+ * 可重入自选选
  */
-public class SimpleSpinLock implements SpinLock {
+public class ReentrantSpinLock implements SpinLock {
 
   @Override
   public void lock() {
