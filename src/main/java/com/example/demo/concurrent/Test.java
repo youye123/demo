@@ -32,21 +32,22 @@ public class Test {
 
     String y  = futureTask1.get();
     System.out.println(y);
-    if(!threadExecutor.isTerminated()){
-      threadExecutor.shutdownNow();*/
-    /*Integer a   = 200;
-    Integer b   = 200;
-    System.out.println(a==b);
-    System.out.println(a.equals( b));*/
+    if(!threadExecutor.isTerminated()) {
+      threadExecutor.shutdownNow();
+    }*/
+    Integer a = 128;
+    Integer b = 128;
+    System.out.println(a == b);
+    System.out.println(a.equals(b));
 
 
-    Map map  = new LinkedHashMap();
+    /*Map map  = new LinkedHashMap();
     map.put("a",1);
     map.put("a",1);
     map.put("b",2);
     map.put("c",3);
 
-    System.out.println(map.keySet().size());
+    System.out.println(map.keySet().size());*/
 
 
   }
